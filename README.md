@@ -1,4 +1,7 @@
 # CRUD in Codeigniter4-Mysql-Docker
+### <b>Objetivo do projeto<b>: 
+Criar uma aplicação web em PHP com acesso restrito, que exiba uma listagem de livros com as opções de ver os detalhes, editar, deletar e criar um livro, e também exiba o clima atual da sua região.
+<h>
 ## To Setup the project
 
 1. Clone the project
