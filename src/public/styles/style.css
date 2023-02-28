@@ -1,0 +1,36 @@
+* {
+    font-family: 'Quicksand', Quicksand, sans-serif;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+/* --- in books.index page --- */
+.responsive-table {
+    overflow-x: auto;
+}
+
+.table .book-cover {
+    width: 7.5rem;
+}
+
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
+
+/* --- in books.details page --- */
+
+.card .book-cover {
+    display: inline-flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0.5rem 1.5rem;
+    }
+}

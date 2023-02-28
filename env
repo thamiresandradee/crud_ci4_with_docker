@@ -1,0 +1,6 @@
+UID=1000
+
+MYSQL_ROOT_PASSWORD=example
+MYSQL_DATABASE=codeigniter4
+
+CI_ENVIRONMENT = production

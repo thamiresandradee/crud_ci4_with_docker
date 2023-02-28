@@ -1,0 +1,39 @@
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Sat Jul 30 08:07:56.413625 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Jul 30 08:07:56.414969 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jul 30 09:01:11.610113 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jul 30 09:01:21.945119 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Jul 30 09:01:21.946388 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jul 30 09:02:38.895974 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jul 30 09:06:42.234159 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Jul 30 09:06:42.236166 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jul 30 10:15:20.536923 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jul 30 10:19:08.550063 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Jul 30 10:19:08.551630 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Feb 27 14:13:45.907897 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Mon Feb 27 14:13:45.908022 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Feb 27 14:15:12.378304 2023] [php7:warn] [pid 16] [client 172.24.0.1:55782] PHP Warning:  require(/var/www/html/app/Config/../../vendor/codeigniter4/framework/system/bootstrap.php): failed to open stream: No such file or directory in /var/www/html/public/index.php on line 26
+[Mon Feb 27 14:15:12.378406 2023] [php7:error] [pid 16] [client 172.24.0.1:55782] PHP Fatal error:  require(): Failed opening required '/var/www/html/app/Config/../../vendor/codeigniter4/framework/system/bootstrap.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php on line 26
+[Mon Feb 27 15:02:37.978806 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Feb 27 15:05:51.260919 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Mon Feb 27 15:05:51.260999 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Feb 27 16:03:00.606213 2023] [core:notice] [pid 1] AH00052: child pid 32 exit signal Interrupt (2)
+[Mon Feb 27 16:05:33.910741 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Feb 27 16:20:22.305026 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Mon Feb 27 16:20:22.305095 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Feb 27 16:26:06.644208 2023] [core:notice] [pid 1] AH00052: child pid 48 exit signal Interrupt (2)
+[Mon Feb 27 16:28:06.321900 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Feb 27 16:35:43.586373 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Mon Feb 27 16:35:43.586423 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Feb 27 17:19:35.964661 2023] [core:notice] [pid 1] AH00052: child pid 30 exit signal Interrupt (2)
+[Mon Feb 27 18:39:07.313734 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Feb 27 18:39:16.368666 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Mon Feb 27 18:39:16.369961 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Feb 27 19:15:19.401933 2023] [core:notice] [pid 1] AH00052: child pid 29 exit signal Interrupt (2)
+[Mon Feb 27 21:15:05.455799 2023] [core:notice] [pid 1] AH00052: child pid 35 exit signal Interrupt (2)
+[Mon Feb 27 22:16:48.150106 2023] [php7:error] [pid 18] [client 172.26.0.1:58096] PHP Fatal error:  Declaration of App\\Models\\BookModel::getValidationRules() must be compatible with CodeIgniter\\BaseModel::getValidationRules(array $options = Array): array in /var/www/html/app/Models/BookModel.php on line 70, referer: http://localhost/
+[Mon Feb 27 22:21:53.253554 2023] [php7:error] [pid 19] [client 172.26.0.1:40286] PHP Fatal error:  Declaration of App\\Models\\BookModel::getValidationRules() must be compatible with CodeIgniter\\BaseModel::getValidationRules(array $options = Array): array in /var/www/html/app/Models/BookModel.php on line 70, referer: http://localhost/
+[Tue Feb 28 12:56:30.439508 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Tue Feb 28 12:56:30.440540 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 28 14:20:28.089804 2023] [core:notice] [pid 1] AH00052: child pid 29 exit signal Interrupt (2)
+[Tue Feb 28 19:42:09.211897 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
