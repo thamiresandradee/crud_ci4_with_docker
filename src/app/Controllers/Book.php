@@ -34,7 +34,7 @@ class Book extends BaseController {
         $currentPage = ((int)$currentPage > 1) ? $currentPage : 1;
         $rowEachPage = 5;
 
-        // execute searching query if keyword is exist
+        // execute searching query if filterParam is exist
         if (!empty($filterParam)) {
             $books = $this->bookModel->search($filterParam);
         } else {
@@ -113,9 +113,6 @@ class Book extends BaseController {
             'author'        => htmlspecialchars($this->request->getVar('author')),
             'description'   => htmlspecialchars($this->request->getVar('description')),
         ];
-
-        // print_r($data);
-        // exit();
 
         if ($this->bookModel->save($data) === false) {
             return redirect()->back()->withInput()->with('errors', $this->bookModel->errors());

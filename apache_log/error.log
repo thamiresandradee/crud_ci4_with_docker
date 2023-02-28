@@ -37,3 +37,5 @@ AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
 [Tue Feb 28 12:56:30.440540 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Tue Feb 28 14:20:28.089804 2023] [core:notice] [pid 1] AH00052: child pid 29 exit signal Interrupt (2)
 [Tue Feb 28 19:42:09.211897 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 28 21:00:09.417691 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Tue Feb 28 21:00:09.417763 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

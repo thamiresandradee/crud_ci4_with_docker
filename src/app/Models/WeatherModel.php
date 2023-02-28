@@ -21,15 +21,11 @@ class WeatherModel extends Model
             }
             
             // Obtem os dados da API
-            //$resposta = file_get_contents(substr($url, 0, -1));
-
             try {
                 $resposta = file_get_contents(substr($url, 0, -1));
             } catch(\Exception $e) {
                 $resposta = '';
             }
-            
-            //var_dump($repsosta);die();
 
             return json_decode($resposta, true);
         } else {
