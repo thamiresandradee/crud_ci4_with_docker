@@ -1,17 +1,21 @@
 # CRUD in Codeigniter4-Mysql-Docker
-## To Setup 
+## To Setup the project
 
-1. Edit env to .env
-2. Start docker-compose up
-3. Enter on container WEB:
+1. Clone the project
+2. Edit `env` to `.env`
+\
+In my case, on linux, I had to edit my Dockerfile on line 28, you can comment this part
+    - `docker/apache/Dockerfile`
+3. Start docker-compose up
+4. Enter on container WEB:
     - `docker exec -it CONTAINER_NAME bash`
 
-4. Update Composer to install the vendor: 
+5. Update Composer to install the vendor: 
     - `composer update`
-5. Inside container WEB, run the migrations to install the tables to your project:
+6. Inside container WEB, run the migrations to install the tables to your project:
     - `php spark migrate`
 
-6. Inside container WEB, run the seeders to put some informations on your project: 
+7. Inside container WEB, run the seeders to put some informations on your project: 
     - `php spark db:seed UserSeeder` 
     - `php spark db:seed BookSeeder`
 
